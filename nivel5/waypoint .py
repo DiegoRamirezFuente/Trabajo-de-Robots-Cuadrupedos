@@ -8,7 +8,7 @@ from math import atan2, sqrt
 from tf.transformations import euler_from_quaternion
 
 # === Variables globales ===
-waypoints = [(1.7, 0), (1.7, 0.3), (3, 0.3)]
+waypoints = [(1.7, 0), (2, 0.3), (3, -1)]
 current_waypoint_index = 0
 
 current_x, current_y, current_theta = 0.0, 0.0, 0.0
