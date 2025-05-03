@@ -102,8 +102,6 @@ A continuación se muestra una imagen con la vista general de los niveles en el 
 
 ![Vista general de los niveles](media/niveles.png)
 
-> 🖼️ Coloca tu imagen en la carpeta `media/` del repositorio y asegúrate de llamarla `niveles.png`, o ajusta el nombre en el enlace según corresponda.
-
 ---
 
 ## Notas Finales
