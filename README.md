@@ -1,12 +1,12 @@
 # Control de Robot Cuadrúpedo con NMPC en Entorno Simulado
 
-Este repositorio contiene los archivos necesarios para ejecutar una estrategia de control basada en NMPC (Nonlinear Model Predictive Control) para un robot cuadrúpedo Unitree A1 en un entorno simulado. El objetivo es completar con éxito cuatro niveles de dificultad (niveles 1, 2, 4 y 5), modificando parámetros específicos de forma manual para cada uno.
+Este repositorio contiene los archivos necesarios para ejecutar un robot cuadrúpedo (A1) en cuatro niveles distintos de un entorno simulado, utilizando el controlador desarrollado en el entorno ROS del escritorio virtual de la UPM.
 
 ## Estructura del Repositorio
 
 Cada carpeta (`nivel_1`, `nivel_2`, `nivel_4`, `nivel_5`) contiene:
 
-- `task.info`: configuración del controlador NMPC adaptada al nivel.
+- `task.info`: archivo de configuración completo para el comportamiento del robot. Incluye parámetros de control como MPC, oscilación de patas (swing), contacto, fases de marcha y ganancias del PD.
 - `waypoint.py`: script Python que gestiona la trayectoria y el comportamiento del robot.
 
 El archivo `full_sim.launch` **no está incluido** en las carpetas. El usuario debe modificarlo manualmente para ajustar la posición inicial del robot según el nivel.
@@ -81,7 +81,7 @@ start_asap: false
 timeout: 0.0"
 ```
 
-### 5. Seleccionar el patrón de marcha
+### 4. Seleccionar el patrón de marcha
 En el terminal del paso 2.
 
 ### 5. Ejecutar la trayectoria
