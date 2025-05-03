@@ -53,6 +53,7 @@ Y reemplazarla por una versión que incluya los valores `-x` y `-y` adecuados pa
 | Nivel 1 | 2.2          | `args="-x 0.0 -y 2.2 -z 0.5 -param legged_robot_description -urdf -model $(arg robot_type)" output="screen"/>` |
 | Nivel 2 | 0.0          | `args="-x 0.0 -y 0.0 -z 0.5 -param legged_robot_description -urdf -model $(arg robot_type)" output="screen"/>` |
 | Nivel 4 | 6.8          | `args="-x 0.0 -y 6.8 -z 0.5 -param legged_robot_description -urdf -model $(arg robot_type)" output="screen"/>` |
+| Nivel 5 | 9.8          | `args="-x 0.0 -y 9.8 -z 0.5 -param legged_robot_description -urdf -model $(arg robot_type)" output="screen"/>` |
 
 > ⚠️ Este paso es obligatorio para garantizar que el robot aparezca en el punto de partida correcto del entorno simulado.
 
