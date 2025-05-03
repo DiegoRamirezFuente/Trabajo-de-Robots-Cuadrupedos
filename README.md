@@ -116,6 +116,6 @@ A continuación se muestra una imagen con la vista general de los niveles en el 
 
 ## Autores
 
-Iñaki Dellibarda Varela - M24228
-Pablo Hita Pérez - 17231
-Diego Ramírez Fuente - M24240
+- Iñaki Dellibarda Varela - M24228
+- Pablo Hita Pérez - 17231
+- Diego Ramírez Fuente - M24240
